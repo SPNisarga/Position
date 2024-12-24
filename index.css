@@ -1,0 +1,182 @@
+body{
+    display: flex;
+    background-color:lavender; 
+    margin-left: 100px;
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 190%;
+    object-fit: cover;
+    z-index: -1;
+}
+div{
+    min-width: 200px;
+    min-height: 200px;
+    border: 2px solid ;
+    cursor: pointer;
+}
+.d1{
+    background-color: purple;
+        /* position: absolute; */
+        position: relative;
+        /* top: 100px;
+        left: 50px; */
+}
+.d2{
+    background-color: deeppink;
+    position: relative;
+    top: 100px;
+    right: 50px;
+    
+}
+.d3{
+    background-color: darkcyan;
+    position: relative;
+    top: 200px;
+    right: 100px;
+}
+.d4{
+    background-color: darkgoldenrod;
+    position: relative;
+    top: 300px;
+    right: 150px;
+}
+.d5{
+    background-color: darkgray;
+    position: relative;
+    top: 400px;
+    right: 200px;
+}
+.d6{
+    background-color: darkgreen;
+    position: relative;
+    top: 500px;
+    right: 250px;
+}
+.d7{
+    background-color: darkkhaki;
+    position: relative;
+    top: 600px;
+    right: 300px;
+}
+.d8{
+    background-color: darkred;
+    position: relative;
+    top: 700px;
+    right: 350px;
+}
+.d9{
+    background-color: darkolivegreen;
+    position: relative;
+    top: 800px;
+    right: 400px;
+}
+.d10{
+    background-color: darkorange;
+    position: relative;
+    top: 900px;
+    right: 450px;
+}
+.d11{
+    background-color: red;
+    position: relative;
+    top: 1000px;
+    right: 500px;
+}
+.d1:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/BTSlogo.jpg);
+    background-position: center;
+    background-size:cover;
+    /* transform: scale(1.5); */
+    position:relative;
+    right: 50px;
+}
+.d2:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/BTSfam.jpeg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 100px;
+}
+.d3:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/jinthought.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 150px;
+}
+.d4:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/rmthought.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 200px;
+}
+.d5:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/Vthought.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 250px;
+}
+.d6:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/sugathought.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 300px;
+}
+.d7:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/jiminathought.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 350px;
+}
+.d8:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/jhopethouht.png);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 400px;
+}
+.d9:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/JKthought.jpg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 450px;
+}
+
+.d10:hover{
+    border-radius: 50%;
+    transition: 2s;
+    background-image: url(../IMAGE/btslove.jpeg);
+    background-position: center;
+    background-size:cover;
+    position:relative;
+    right: 500px;
+}
+
